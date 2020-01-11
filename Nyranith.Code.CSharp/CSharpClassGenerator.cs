@@ -14,7 +14,7 @@ namespace Nyranith.Code.CSharp
     {
         private NamespaceDeclarationSyntax _namespace = null;
 
-        public CSharpClassGenerator(string className) : this(className, null, null, null)
+        public CSharpClassGenerator(string className) : this(className, Modifier.Public)
         {
 
         }
